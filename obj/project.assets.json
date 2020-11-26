@@ -7154,7 +7154,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.Azure.Management.Fluent >= *"
+      "Microsoft.Azure.Management.Fluent >= 1.35.0"
     ]
   },
   "packageFolders": {
@@ -7194,7 +7194,7 @@
         "dependencies": {
           "Microsoft.Azure.Management.Fluent": {
             "target": "Package",
-            "version": "[*, )"
+            "version": "[1.35.0, )"
           }
         },
         "imports": [

@@ -38,7 +38,7 @@
           "dependencies": {
             "Microsoft.Azure.Management.Fluent": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[1.35.0, )"
             }
           },
           "imports": [

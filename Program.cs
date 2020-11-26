@@ -17,10 +17,10 @@ namespace Azure_Certification
 
             // Resource Group
             var groupName = "azureResourceGroup1";
-            var vmName = "azureVirtualMachine1";
             var location = Region.EuropeNorth;
-            var virtualNetwork = "azureVirtualNetwork1";
-            
+
+            Console.WriteLine("Creating a resource group...");
+            var resourceGroup = azure.ResourceGroups.Define(groupName).WithRegion(location).Create();
         }
     }
 }
